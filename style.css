@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url(ptik\ g.jpeg);
+    background-size: 30%;
+    background-position: 100px 500px;
+    background-color: #EFC3CA;
+    color: grey;
+    text-align: center;
+    height: 400px;
+    padding: 20px 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    background: #ccc;
+    padding: 15px;
+}
+
+.content {
+    width: 75%;
+    padding: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
